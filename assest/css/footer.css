@@ -1,0 +1,27 @@
+footer p {
+  color: black;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+footer {
+  margin: 0% auto;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background-color: #7f5af0;
+}
+
+.redes__sociales {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=footer.css.map */

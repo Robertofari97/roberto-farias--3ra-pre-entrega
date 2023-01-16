@@ -1,0 +1,25 @@
+@use 'commons' as c;
+footer p{
+    color: map-get(c.$colores,"color-video");
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+footer{
+    
+    margin: 0% auto;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color:map-get(c.$colores,"color-footer");
+}
+.redes__sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    
+}

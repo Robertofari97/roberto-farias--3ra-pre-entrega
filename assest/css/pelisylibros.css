@@ -1,0 +1,44 @@
+.img__libros img {
+  width: 400px;
+}
+
+.img__pelis img {
+  width: 400px;
+}
+
+tr {
+  background-color: #004643;
+}
+
+@media screen and (min-width: 767px) {
+  #PL__page {
+    display: flex;
+    flex-direction: row;
+  }
+  .img__libros img {
+    width: 400px;
+    height: 200px;
+  }
+  .img__pelis img {
+    width: 400px;
+    height: 200px;
+  }
+  #PL__page {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: "imglibros imglibros imgpelis imgpelis" "libros libros pelis pelis";
+  }
+  .img__libros {
+    grid-area: imglibros;
+  }
+  .libros {
+    grid-area: libros;
+  }
+  .img__pelis {
+    grid-area: imgpelis;
+  }
+  .pelis {
+    grid-area: pelis;
+  }
+}/*# sourceMappingURL=pelisylibros.css.map */
